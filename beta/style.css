@@ -3,7 +3,7 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -15,7 +15,7 @@ a {
 body {
     padding: 32px;
     color: white;
-    background-color: #0b0b0c;
+    background-color: #111013;
     display: flex;
     justify-content: center;
 }
@@ -56,37 +56,8 @@ section ul {
     margin-top: 4rem;
     display: grid;
     justify-items: center;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 4rem;
-}
-
-section ul h2 {
-    font-size: 150%;
-    color: white;
-    margin-top: 10px;
-    font-weight: bolder;
-    margin-bottom: 0px;
-    
-    transition: transform .2s;
-    position: relative;
-
-}
-
-section ul span {
-    font-size: 90%;
-    color: #5a546b;
-    margin-top: 0px;
-    font-weight: lighter;
-
-    transition: transform .5s;
-    position: relative;
-}
-section ul span:hover{
-    font-size: 100%;
-}
-
-section ul h2:hover{
-    transform: scale(1.2);
 }
 
 section ul li:hover{
@@ -96,10 +67,9 @@ section ul li:hover{
 section ul li {
     background-color: blue;
         width: 20rem;
-        height: 6rem;
         max-width: 40rem;
-        min-height: 10px;
-    border-radius: 0.7rem;
+        min-height: 100px;
+    border-radius: 0.2rem;
 
     display: flex;
     flex-direction: column;
@@ -111,10 +81,7 @@ section ul li {
 }
 
 section ul li svg {
-    width: 40px;
-    height: 40px;
-    max-width: 40rem;
-    min-height: 50px;
+    margin-bottom: 8px;
 }
 
 span {
@@ -137,10 +104,6 @@ span.new {
     color: black;
 }
 
-.uteis{
-    color: white;
-}
-
 .codeby{
     margin-top: 100px;
     font-size: 20px
@@ -151,28 +114,7 @@ span.new {
     font-size: 12px;
 }
 
-@media screen and (max-width: 1125px) {
-    section ul {
-        gap: 0.5rem;
-        grid-template-columns: repeat(2, 2fr);
-    }
-}   
-
-@media screen and (max-width: 767px) { /* ou 767px */
-    section ul li {
-        width: 15rem;
-        max-width: 40rem;
-        height: 90px;
-    }
-
-    section ul {
-        gap: 1.5rem;
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-
-@media screen and (max-width: 535px) { /* ou 767px */
+@media screen and (max-width: 500px) { /* ou 767px */
     body {
         font-size: 14px;
     }
@@ -205,7 +147,7 @@ span.new {
     }
 }
 
-@media screen and (max-width: 350) {
+@media screen and (max-width: 350px) {
     section ul {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -217,8 +159,8 @@ span.new {
 }
 
 .svg-white{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     object-fit: fill;
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
-}   
+}
