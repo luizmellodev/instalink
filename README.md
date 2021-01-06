@@ -6,10 +6,14 @@
     <a/>
 </h1>
     <i> click on the image to see the site online! </i>
+</br>
+</br>
 
 A project for an Instagram link management site (like Linkgallery)
 </br>
 </br>
+</br>
+
 Some files and code snippets have been removed to maintain the integrity and security of the project.
 
 ## Usage
