@@ -21,7 +21,9 @@ body {
 }
 
 .titulo-sep{
-    margin-top: 40px;
+    color: #6C3BED;
+    margin-top: 60px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,6 +35,14 @@ header img {
     width: 124px;
     border-radius: 50%;
     margin-bottom: 32px;    
+
+    transition: transform .2s;
+    position: relative;
+}
+
+header img:hover {
+    transform: scale(1.2);
+
 }
 
 header p {
@@ -41,7 +51,14 @@ header p {
     margin-bottom: 60px;
 }
 
+
+header p:hover {
+    color: #947edf;
+
+}
+
 header a {
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,7 +70,7 @@ ul {
 }
 
 section ul {
-    margin-top: 4rem;
+    margin-top: 1rem;
     display: grid;
     justify-items: center;
     grid-template-columns: repeat(3, 1fr);
@@ -64,7 +81,7 @@ section ul h2 {
     font-size: 150%;
     color: white;
     margin-top: 10px;
-    font-weight: bolder;
+    font-weight: normal;
     margin-bottom: 0px;
     
     transition: transform .2s;
@@ -74,7 +91,7 @@ section ul h2 {
 
 section ul span {
     font-size: 90%;
-    color: #5a546b;
+    color: #6b6480;
     margin-top: 0px;
     font-weight: lighter;
 
@@ -82,7 +99,7 @@ section ul span {
     position: relative;
 }
 section ul span:hover{
-    font-size: 100%;
+    color: #947edf;
 }
 
 section ul h2:hover{
