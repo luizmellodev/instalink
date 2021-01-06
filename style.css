@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+body {
+    padding: 32px;
+    color: white;
+    background-color: #111013;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-sep{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    height: 124px;
+    width: 124px;
+    border-radius: 50%;
+    margin-bottom: 32px;    
+}
+
+header p {
+    font-size: 120%;
+    color: #c5c2da;
+    margin-bottom: 60px;
+}
+
+header a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section ul {
+    margin-top: 4rem;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+}
+
+section ul li:hover{
+    transform: scale(1.2);
+}
+
+section ul li {
+    background-color: blue;
+    width: 20rem;
+    max-width: 40rem;
+    min-height: 100px;
+    border-radius: 0.2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    transition: transform .2s;
+}
+
+section ul li svg {
+    margin-bottom: 8px;
+}
+
+span {
+    max-width: 80%;
+    text-align: center;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+span.new {
+    position: absolute;
+    top: -1rem;
+    right: 1rem;
+    border-radius: .2rem;
+    background-color: white;
+    z-index: 1;
+    padding: .2rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+}
+
+@media screen and (max-width: 500px) { /* ou 767px */
+    body {
+        font-size: 14px;
+    }
+    
+    span {
+        line-height: 18px;
+    }
+
+    section ul li {
+        width: 10rem;
+        max-width: 40rem;
+        height: 90px;
+    }
+
+    section ul {
+        gap: 1.5rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    span.new {
+        top: -0.8rem;
+        right: 1rem;
+        font-size: 0.8rem;
+    }
+}
+
+.svg-white{
+    width: 20px;
+    height: 20px;
+    object-fit: fill;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
