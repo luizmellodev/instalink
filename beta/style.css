@@ -205,7 +205,7 @@ span.new {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350) {
     section ul {
         grid-template-columns: repeat(1, 1fr);
     }
