@@ -2,7 +2,7 @@
 
 <h1 align="center">
     <a href="https://chilleddev.vercel.app/" target="_blank">
-        <img alt="website printscreen" title="#instalink" src="github/print.png" />
+        <img alt="website printscreen" title="#instalink" src="github/prsint.png" />
     <a/>
 </h1>
     <i> click on the image to see the site online! </i>
