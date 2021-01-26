@@ -6,6 +6,7 @@
     <a/>
 </h1>
     <i> click on the image to see the site online! </i>
+    <p> Idk why, but the image is with high contrast and saturation </p>
 </br>
 </br>
 
