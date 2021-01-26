@@ -5,7 +5,7 @@
         <img alt="website printscreen" title="#instalink" src="github_assets/screenprint.png" />
     <a/>
 </h1>
-    <i> click on the image to see the site online! </i>
+    <h3> click on the image to see the site online! </h3>
     <p> Idk why, but the image is with high contrast and saturation </p>
 </br>
 </br>
