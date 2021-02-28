@@ -1,4 +1,5 @@
 # InstaLink 👨‍💻
+A project for an Instagram link management site (like Linkgallery)
 
 <h1 align="center">
     <a href="https://luizmellolinks.vercel.app/" target="_blank">
@@ -6,10 +7,6 @@
     <a/>
 </h1>
     <h3> click on the image to see the site online! </h3>
-</br>
-
-A project for an Instagram link management site (like Linkgallery)
-</br>
 </br>
 </br>
 
