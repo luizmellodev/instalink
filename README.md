@@ -1,13 +1,12 @@
 # InstaLink 👨‍💻
 A project for an Instagram link management site (like Linkgallery)
+Click on the image to see the website =)
 
 <h1 align="center">
     <a href="https://luizmellolinks.vercel.app/" target="_blank">
         <img alt="website printscreen" title="#instalink" src="github_assets/screenprint4.png" />
     <a/>
 </h1>
-    <h3> click on the image to see the site online! </h3>
-</br>
 
 ## Usage
 
