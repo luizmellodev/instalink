@@ -6,8 +6,6 @@
     <a/>
 </h1>
     <h3> click on the image to see the site online! </h3>
-    <p> Idk why, but the image is with high contrast and saturation </p>
-</br>
 </br>
 
 A project for an Instagram link management site (like Linkgallery)
