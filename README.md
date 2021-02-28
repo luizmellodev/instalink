@@ -1,7 +1,7 @@
 # InstaLink - Under construction  👨‍💻
 
 <h1 align="center">
-    <a href="https://chilleddev.vercel.app/" target="_blank">
+    <a href="https://luizmellolinks.vercel.app/" target="_blank">
         <img alt="website printscreen" title="#instalink" src="github_assets/screenprint.png" />
     <a/>
 </h1>
