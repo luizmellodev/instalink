@@ -15,7 +15,7 @@ Clone this repository and change the information contained in the `index.html` f
 If you want, you can change the style of your site too! The entire style is maintained in the standard `style.css` file
 
 ## Contributing
-Im still in base development. So, if you want to contribute, send me a message on my Discord or Instagram Direct (by Chilled Dev) - All available in my profile readme (https://github.com/luizeduardomr/)
+Im still in base development. So, if you want to contribute, send me a message on my Discord or Instagram Direct (by @luizmello.dev) - All available in my profile readme (https://github.com/luizeduardomr/)
 
 Or you can contact the creator of the idea and the code base! (Right below)
 ## Thanks for
