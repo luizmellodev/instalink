@@ -1,5 +1,5 @@
 # InstaLink 👨‍💻
-A project for an Instagram link management site (like Linkgallery)
+A project for an Instagram link management site (like Linkgallery) </br>
 Click on the image to see the website =)
 
 <h1 align="center">
