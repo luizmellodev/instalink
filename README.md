@@ -8,10 +8,6 @@ A project for an Instagram link management site (like Linkgallery)
 </h1>
     <h3> click on the image to see the site online! </h3>
 </br>
-</br>
-
-Some files and code snippets have been removed to maintain the integrity and security of the project.
-
 ## Usage
 
 Clone this repository and change the information contained in the `index.html` file.
