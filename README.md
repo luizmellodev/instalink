@@ -1,4 +1,4 @@
-# InstaLink - 👨‍💻
+# InstaLink 👨‍💻
 
 <h1 align="center">
     <a href="https://luizmellolinks.vercel.app/" target="_blank">
