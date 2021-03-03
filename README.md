@@ -4,7 +4,7 @@ Click on the image to see the website =)
 
 <h1 align="center">
     <a href="https://luizmellolinks.vercel.app/" target="_blank">
-        <img alt="website printscreen" title="#instalink" src="github_assets/screenmobile.png" />
+        <img alt="website printscreen" title="#instalink" src="github_assets/screenmobil2e.png" />
     <a/>
 </h1>
 
