@@ -79,8 +79,9 @@ section ul {
 
 .patrocinador {
     margin-top: 1rem;
-    justify-items: center;
-    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
     gap: 4rem;
 }
 
