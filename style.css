@@ -77,6 +77,14 @@ section ul {
     gap: 4rem;
 }
 
+.patrocinador {
+    margin-top: 1rem;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+}
+
+
 section ul h2 {
     font-size: 150%;
     color: white;
