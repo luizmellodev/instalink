@@ -83,6 +83,7 @@ section ul {
     justify-content: center;
     grid-template-columns: repeat(1, 1fr);
     gap: 4rem;
+    padding-bottom: 100px;
 }
 
 
