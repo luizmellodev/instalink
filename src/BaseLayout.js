@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from "./components/Header/Header";
 import SponsoredLinks from "./components/Sponsored/SponsoredLinks";
-import SocialLinks from "./components/SocialLinks";
+import SocialLinks from "./components/Social/SocialLinks";
 import UsefulLinks from "./components/UsefulLinks";
 
 
@@ -10,6 +10,7 @@ function BaseLayout() {
     <div>
         <Header />
         <SponsoredLinks />
+        <SocialLinks />
     </div>
   );
 }

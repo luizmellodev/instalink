@@ -1,7 +1,7 @@
 // SponsoredLinks.js
 import React from "react";
 import { Box, Stack, Typography } from "@mui/material";
-import { info } from "./Info";
+import { info } from "../../info/Info";
 
 function SponsoredLinks() {
   const commonContainerStyles = {
@@ -13,9 +13,9 @@ function SponsoredLinks() {
 
   return (
     <Box sx={{ ...commonContainerStyles }} style={{ marginTop: "20px" }}>
-      <h2>Patrocinadores</h2>
+      <Typography variant="h5" sx={{ marginTop: "100px" }}>Links patrocinados</Typography>
       <Stack container spacing={4}>
-        {info.links.map((sponsor, index) => (
+        {info.sponsors.map((sponsor, index) => (
           <PortfolioBlock
             key={index}
             source={sponsor.source}

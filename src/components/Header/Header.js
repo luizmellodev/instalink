@@ -35,6 +35,7 @@ function Header() {
         borderRadius="50%"
         p="0.2rem"
       />
+      <Typography variant="h4" sx={{ marginTop: "20px", fontWeight: "600" }}>Luiz Mello </Typography>
       <Typography
         sx={{
           ...commonContainerStyles,
@@ -48,7 +49,6 @@ function Header() {
           },
         }}
       >
-        <h1>Luiz Mello</h1>
         <span>@luizmello.dev</span>
       </Typography>
     </Box>
