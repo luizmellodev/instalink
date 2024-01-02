@@ -26,7 +26,7 @@ function SocialLinks() {
       </Typography>
       <Grid container spacing={3}>
         {info.social.map((social, index) => (
-          <Grid key={index} item xs={12} sm={6} md={4}>
+          <Grid key={index} item xs={12} sm={6} md={4} display={"flex"} justifyContent={"center"}>
             <SocialLinkComponent
               key={index}
               title={social.title}

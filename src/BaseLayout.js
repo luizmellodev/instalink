@@ -7,11 +7,11 @@ import UsefulLinks from "./components/UsefulLinks";
 
 function BaseLayout() {
   return (
-    <div>
+    <>
         <Header />
         <SponsoredLinks />
         <SocialLinks />
-    </div>
+    </>
   );
 }
 export default BaseLayout;
