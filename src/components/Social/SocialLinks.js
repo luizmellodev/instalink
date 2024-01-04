@@ -16,17 +16,37 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+  const hoverEffect = {
+    transition: "transform 0.2s",
+    "&:hover": {
+      transform: "scale(1.2)",
+    },
+};
+
 function SocialLinks() {
   const classes = useStyles();
 
   return (
-    <Box className={classes.container} flexDirection={"column"}>
-      <Typography variant="h5" sx={{ marginTop: "240px", marginBottom: "50px" }}>
+    <Box className={classes.container} flexDirection={"column"} sx={{
+      marginTop: "100px"
+      }}>
+      <Typography
+        variant="h5"
+        sx={{ marginBottom: "50px" }}
+      >
         Sobre mim
       </Typography>
-      <Grid container spacing={3}>
+      <Grid container spacing={1}>
         {info.social.map((social, index) => (
-          <Grid key={index} item xs={12} sm={6} md={4} display={"flex"} justifyContent={"center"}>
+          <Grid
+            key={index}
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            display={"flex"}
+            justifyContent={"center"}
+          >
             <SocialLinkComponent
               key={index}
               title={social.title}
@@ -53,19 +73,11 @@ function SocialIcon(props) {
 function SocialLinkComponent(props) {
   const { title, username, source, icon } = props;
   return (
-    <Box
-      sx={{
-        cursor: "pointer",
-        transition: "transform 0.2s",
-        "&:hover": {
-          transform: "scale(1.1)",
-        },
-      }}
-    >
+    <Box sx={{cursor: "pointer"}}>
       <Box
-        sx={{
-          width: "320px",
-          height: "96px",
+        sx={{ ...hoverEffect,
+          width: "20rem",
+          height: "6rem",
           borderRadius: "15px",
           background: "linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)",
           display: "flex",
@@ -78,10 +90,16 @@ function SocialLinkComponent(props) {
           <SocialIcon link={source} icon={"fa fa-instagram fa-3x"} />
         </Box>
       </Box>
-      <Typography variant="h4" sx={{ marginTop: "10px" }}>
+      <Typography variant="h6" sx={{ ...hoverEffect, marginTop: "10px" }}>
         {title}
       </Typography>
-      <Typography variant="h6" sx={{ color: "gray" }}>
+      <Typography variant="h7" sx={{
+        color: "#6b6480",
+        fontWeight: "bold",
+        "&:hover": {
+          color: "#947edf",
+        }
+        }}>
         @luizmello.dev
       </Typography>
     </Box>

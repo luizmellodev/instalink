@@ -12,8 +12,8 @@ function SponsoredLinks() {
   };
 
   return (
-    <Box sx={{ ...commonContainerStyles }} style={{ marginTop: "20px" }}>
-      <Typography variant="h5" sx={{ marginTop: "100px" }}>Links patrocinados</Typography>
+    <Box sx={{ ...commonContainerStyles, marginTop: "100px"}} >
+      <Typography variant="h5" sx={{ marginBottom: "50px" }}>Links patrocinados</Typography>
       <Stack container spacing={4}>
         {info.sponsors.map((sponsor, index) => (
           <PortfolioBlock
@@ -71,8 +71,8 @@ function PortfolioBlock(props) {
       </Box>
       <Box
         sx={{
-          width: "320px",
-          height: "96px",
+          width: "20rem",
+          height: "6rem",
           borderRadius: "15px",
           background: "linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)",
           display: "flex",
