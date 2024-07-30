@@ -4,7 +4,7 @@ A project for an Instagram link management site (like Linktree).
 Click on the image to see the website! =)
 
 <h1 align="center">
-    <a href="https://luizmellolinks.vercel.app/" target="_blank">
+    <a href="https://instalinkexample.vercel.app/" target="_blank">
         <img alt="Website screenshot" title="#instalink" src="github_assets/screenmobile2.png" />
     </a>
 </h1>
