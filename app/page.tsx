@@ -1,11 +1,11 @@
 'use client';
-import React, { useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import Header from './components/Header/header';
 import EnhancedButton from './components/Cards/EnhancedButton';
 import IconButtonWithText from './components/Cards/IconButtonWithText';
 import Announcement from './components/Cards/Announcement';
-import { socialMediaData, usefulLinksData } from './data';
+import { announcementData, headerData, socialMediaData, usefulLinksData } from './data';
 import { icons } from './icons';
 import { fadeIn, rotateScale, welcomeAnimation } from './animations';
 
@@ -78,7 +78,7 @@ const UsefulLinks = () => {
 };
 
 // Main Component
-const Home = () => {
+export default function Home() {
   return (
     <div className={`flex flex-col items-center min-h-screen mb-20`}>
       <motion.div
@@ -87,9 +87,9 @@ const Home = () => {
         transition={{ duration: 0.5 }}
       >
         <Header
-          picture="https://avatars.githubusercontent.com/u/49352785?v=4"
-          name="Luiz Mello"
-          username="@luizmello.dev"
+          picture={headerData.picture}
+          name={headerData.name}
+          username={headerData.username}
         />
         <motion.div
           className="announcement"
@@ -98,8 +98,8 @@ const Home = () => {
           animate="visible"
         >
         <Announcement
-            badgeName="New"
-            text="Welcome to my personal website!"
+            badgeName={announcementData.badgeName}
+            text={announcementData.text}
             />
         </motion.div>
       </motion.div>
@@ -109,5 +109,3 @@ const Home = () => {
     </div>
   );
 };
-
-export default Home;

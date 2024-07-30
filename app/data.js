@@ -1,4 +1,9 @@
 
+// Announcement data for the "Announcement" section
+export const announcementData = {
+    text: '🚀 Follow me on GitHub and Instagram!',
+    badgeName: 'New!',
+    };
 // Header data for the "Header" section
 export const headerData = {
     picture: "https://avatars.githubusercontent.com/u/49352785?v=4",
@@ -14,44 +19,44 @@ export const socialMediaData = [
     {
         title: 'GitHub',
         color: { start: '#171515', end: '#2b2b2b' },
-        link: 'https://github.com/luizmello',
+        link: 'https://github.com/luizmellodev',
         icon: 'FaGithub',
-        username: 'luizmello',
+        username: '@luizmellodev',
     },
     {
         title: 'Instagram',
         color: { start: '#F58529', end: '#DD2A7B' },
-        link: 'https://www.instagram.com/luizmello',
+        link: 'https://www.instagram.com/luizmello.dev',
         icon: 'FaInstagram',
-        username: 'luizmello',
+        username: '@luizmello.dev',
     },
     {
         title: 'Facebook',
         color: { start: '#3b5998', end: '#8b9dc3' },
-        link: 'https://www.facebook.com/luizmello',
+        link: '/sadasdasd',
         icon: 'FaFacebook',
-        username: 'luizmello',
+        username: 'Luiz Mello',
     },
     {
         title: 'LinkedIn',
         color: { start: '#0072b1', end: '#00a0dc' },
-        link: 'https://www.linkedin.com/in/luizmello/',
+        link: 'https://www.linkedin.com/in/luizmellodev/',
         icon: 'FaLinkedin',
-        username: 'luizmello',
+        username: 'Luiz Mello',
     },
     {
         title: 'X',
         color: { start: '#1DA1F2', end: '#AAB8C2' },
         link: '/sadsadasdv',
         icon: 'FaTwitter',
-        username: 'luizmello',
+        username: '@luizmello',
     },
     {
         title: 'TikTok',
         color: { start: '#69C9D0', end: '#AA0A3A' },
-        link: 'https://www.tiktok.com/@luizmello.dev',
+        link: 'https://www.tiktok.com/@luizmellodev',
         icon: 'FaTiktok',
-        username: '@luizmello.dev',
+        username: '@luizmellodev',
     },
 ];
 
@@ -65,7 +70,7 @@ export const usefulLinksData = [
     {
         title: 'Understanding React Hooks',
         color: { start: '#696F6F', end: '#5F8C90' },
-        link: 'https://reactjs.org/docs/hooks-intro.html',
+        link: 'https://react.dev/reference/rules/rules-of-hooks',
         isNew: true, // Indicates if the link is new
     },
     {
@@ -77,13 +82,13 @@ export const usefulLinksData = [
     {
         title: 'JavaScript: The Definitive Guide',
         color: { start: '#696F6F', end: '#5F8C90' },
-        link: 'https://www.oreilly.com/library/view/javascript-the-definitive/9781449345060/',
+        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/',
         isNew: true,
     },
     {
         title: 'The Road to React',
         color: { start: '#696F6F', end: '#5F8C90' },
-        link: 'https://reactjs.org/learn/the-road-to-learn-react',
+        link: 'https://react.dev/learn',
         isNew: true,
     },
     {
