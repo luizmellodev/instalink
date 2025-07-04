@@ -1,6 +1,7 @@
 'use client';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
+import toast, { Toaster } from 'react-hot-toast';
 import Header from './components/Header/header';
 import EnhancedButton from './components/Cards/EnhancedButton';
 import IconButtonWithText from './components/Cards/IconButtonWithText';
@@ -79,8 +80,36 @@ const UsefulLinks = () => {
 
 // Main Component
 export default function Home() {
+  useEffect(() => {
+    toast.custom(
+      (t) => (
+        <div
+          className={`${
+            t.visible ? 'animate-enter' : 'animate-leave'
+          } w-screen bg-gradient-to-r from-purple-600 to-blue-600 p-4 flex justify-center items-center gap-4 fixed bottom-0 left-0 z-50`}
+          style={{ margin: 0 }}
+        >
+          <div className="text-white text-center font-medium">
+            Want a link gallery website like this one? Check out our repository! ✨
+          </div>
+          <button
+            onClick={() => window.open('https://github.com/luizmellodev/instalink', '_blank')}
+            className="px-4 py-2 bg-white text-purple-600 rounded-full font-semibold hover:bg-opacity-90 transition-all"
+          >
+            View Repository
+          </button>
+        </div>
+      ),
+      {
+        duration: Infinity,
+        position: 'bottom-center',
+      }
+    );
+  }, []);
+
   return (
-    <div className={`flex flex-col items-center min-h-screen mb-20`}>
+    <div className={`flex flex-col items-center min-h-screen mb-28`}>
+      <Toaster position="bottom-center" toastOptions={{ duration: Infinity }} />
       <motion.div
         initial={{ opacity: 0, y: -20, scale: 0.8 }}
         animate={{ opacity: 1, y: 0, scale: 1 }}

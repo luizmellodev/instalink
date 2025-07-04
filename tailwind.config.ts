@@ -47,6 +47,20 @@ const config: Config = {
           right: '#228E8E',
         },
       },
+      keyframes: {
+        enter: {
+          '0%': { transform: 'translateY(100%)' },
+          '100%': { transform: 'translateY(0)' },
+        },
+        leave: {
+          '0%': { transform: 'translateY(0)' },
+          '100%': { transform: 'translateY(100%)' },
+        },
+      },
+      animation: {
+        enter: 'enter 0.3s ease-out',
+        leave: 'leave 0.3s ease-in forwards',
+      },
     },
   },
   plugins: [],
